@@ -1,22 +1,23 @@
-title: Stackbit Exto Theme
+title: Better.sg
 baseurl: /
 permalink: '/:title/'
 color_scheme: light
 accent_color: pink
 header:
-  title: Exto
   has_nav: true
+  logo_img: /images/newlogo@0.5x.png
+  title: Better.sg
 footer:
-  content: '&copy; Stackbit-Exto. All rights reserved.'
-  links:
-    - text: Made with Stackbit
-      url: 'https://www.stackbit.com'
-      new_window: true
+  content: '&copy; better.sg All rights reserved.'
   has_social: true
+  links:
+    - new_window: true
+      text: A product of Better.sg
+      url: 'https://www.better.sg'
 sass:
   indentWidth: 4
-  style: nested
   precision: 10
+  style: nested
 plugins:
   - jekyll-menus
 exclude:
@@ -33,6 +34,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
