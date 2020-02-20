@@ -5,7 +5,7 @@ color_scheme: light
 accent_color: pink
 header:
   has_nav: true
-  logo_img: /images/newlogo@0.5x.png
+  logo_img: /images/betterwordlogo@0.5x.png
   title: Better.sg
 footer:
   content: '&copy; better.sg All rights reserved.'
