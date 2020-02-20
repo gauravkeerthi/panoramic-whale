@@ -6,12 +6,21 @@ sections:
     section_id: hero
     title: We are better.sg
     type: heroblock
+  - actions:
+      - label: Read More...
+        url: blog/index.html
+    component: posts_block.html
+    num_posts_displayed: -2
+    section_id: latest-posts
+    subtitle: ''
+    title: News & Articles
+    type: postsblock
   - component: portfolio_block.html
     layout_style: mosaic
     num_projects_displayed: 6
     section_id: latest-projects
-    subtitle: An optional subtitle of the section
-    title: Recent Work
+    subtitle: 'Digital tools built by the community, for the community.'
+    title: TechForGood Projects
     type: portfolioblock
     view_all_text: View All
     view_all_url: portfolio/index.html
@@ -57,15 +66,6 @@ sections:
           dui sollicitudin, vel posuere justo laoreet.
     title: Testimonials
     type: testimonialsblock
-  - actions:
-      - label: View Blog
-        url: blog/index.html
-    component: posts_block.html
-    num_posts_displayed: 2
-    section_id: latest-posts
-    subtitle: An optional subtitle of the section
-    title: Latest from the Blog
-    type: postsblock
   - component: contact_block.html
     section_id: contact
     subtitle: An optional subtitle of the section
